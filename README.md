@@ -6,7 +6,7 @@ by Megan Tran
 * [Purpose of Program](#Purpose-of-program)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Using the Program](#Using-the-Program)
+* [Parameters](#Parameters)
 * [Credits](#Credits)
 
 ## Summary of Results
@@ -54,3 +54,10 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications import InceptionV3
 
 ```
+
+## Parameters
+
+## Credits
+
+Code referenced: [ZALCODE](https://www.kaggle.com/code/zalcode/super-simple-butterfly-image-classification#Project-Description)
+
