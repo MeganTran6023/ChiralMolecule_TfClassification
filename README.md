@@ -57,6 +57,21 @@ from tensorflow.keras.applications import InceptionV3
 
 ## Parameters
 
+Batch_size -> how many items to bunch together when running it through model for training
+
+    * I chose 1 to test how accurate the model would predict images labels since this learns images one by one. However, this utilizes a high level of computational cost.
+
+For the base_model, I set the weights to be 'imagenet' so it would use information learned from the imagenet dataset and apply it to my custom dataset.
+
+I also set the number of epochs to be 10 since i already had set a small value for the learning rate as well as have only 5 items for the model to learn from (out of 10).
+
+Train:test split was 5:5 to see how it would perform given the small dataset.
+
+I also had to change y-variable classes to binary to run the epochs:
+```
+#assign numbers to labels classificaiton
+molecule_class_num = df_molecules['label'].nunique()
+```
 ## Credits
 
 Code referenced: [ZALCODE](https://www.kaggle.com/code/zalcode/super-simple-butterfly-image-classification#Project-Description)
