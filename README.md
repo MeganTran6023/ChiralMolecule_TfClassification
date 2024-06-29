@@ -59,7 +59,7 @@ from tensorflow.keras.applications import InceptionV3
 
 Batch_size -> how many items to bunch together when running it through model for training
 
-    * I chose 1 to test how accurate the model would predict images labels since this learns images one by one. However, this utilizes a high level of computational cost.
+* I chose 1 to test how accurate the model would predict images labels since this learns images one by one. However, this utilizes a high level of computational cost.
 
 For the base_model, I set the weights to be 'imagenet' so it would use information learned from the imagenet dataset and apply it to my custom dataset.
 
