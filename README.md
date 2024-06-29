@@ -25,7 +25,7 @@ This program was created to run a few shot deep learning model on my own collect
 
 ![image](https://github.com/MeganTran6023/ChiralMolecule_TfClassification/assets/68253811/153eb67f-a963-48a6-b1b3-28a53b039b45)
 
-## Technologies Used
+## Technologies
 
 * Jupyter Notebook
 
